@@ -11,5 +11,5 @@ const multiplicacion = a * b;
 const division = a / b;
 
 const modulo = a % b;
-const modulo2 = 14 % 5;
+const modulo2 = 14 % 7;
 console.log(modulo2);
