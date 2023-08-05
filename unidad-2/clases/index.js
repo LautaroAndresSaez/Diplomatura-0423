@@ -8,7 +8,7 @@ const b = 2;
 const suma = a + b;
 const resta = a - b;
 const multiplicacion = a * b;
-const division = a / b;
+const division = a / (110 * b);
 
 const modulo = a % a;
 const modulo2 = 140 % 7;
