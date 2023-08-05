@@ -10,6 +10,6 @@ const resta = a - b;
 const multiplicacion = a * b;
 const division = a / b;
 
-const modulo = a % b;
-const modulo2 = 14 % 7;
+const modulo = a % a;
+const modulo2 = 140 % 7;
 console.log(modulo2);
