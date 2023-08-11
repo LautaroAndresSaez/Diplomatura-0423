@@ -1,5 +1,4 @@
 const help = () => {
-  const resultado = "";
   console.log("Ejemplo: node calculadora.js funcion a b");
   console.log("\tfuncion: ");
   console.log("\t\t-sumar: a + b");
