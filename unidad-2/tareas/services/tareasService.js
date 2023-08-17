@@ -4,7 +4,6 @@ const crear = (nombre, descripcion) => {
 
 const leer = () => {
   console.log("leer tareas");
-  return [???]
 };
 
 const actualizar = (nombre, nuevaDescripcion) => {
