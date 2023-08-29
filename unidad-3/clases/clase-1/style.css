@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  font-size: 32px;
+}
+
+p {
+}
+
+.titulo {
+  font-size: 1rem;
+}
+
+.box {
+  width: 50%;
+  height: 500px;
+  background-color: red;
+}
+
+.boton {
+  color: pink;
+}
+
+#saludo {
+  font-size: 50px;
+}
+
+button {
+  background-color: #ff000065;
+  border: none;
+}
+
+#centrado {
+  text-align: center;
+}
+
+#justificado {
+  text-align: justify;
+  font-weight: light;
+}
+
+#derecha {
+  text-align: right;
+}
