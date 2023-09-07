@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mascotas.css">
+</head>
+
+<body>
+    <h2>Agregar mascotas</h2>
+    <form action="http://ip:3000/pets" method="post">
+        <label class="label">Nombre: <input name="nombre" /></label>
+        <label class="label">Dueño: <input name="dueño" /></label>
+        <label class="label">
+            Email: <input name="email" type="email" />
+        </label>
+        <label class="label">
+            Raza:
+            <select name="raza">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="conejo">Conejo</option>
+            </select>
+        </label>
+        <button type="submit">Enviar!</button>
+    </form>
+</body>
+
+</html>
