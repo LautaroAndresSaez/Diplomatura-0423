@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- 
+                {
+                    name: valor del input con name="name",
+                    email: valor del input con name="email",
+                    age: valor del input con name="age",
+                    password: valor del input con name="password"
+                    country: valor del option
+                }
+            -->
+
+<body>
+    <form>
+        <label>Nombre:
+            <input name="name" />
+        </label>
+        <label>Email:<input type="email" name="email" placeholder="email@email.com" /></label>
+        <label>Contraseña: <input type="password" name="password" /></label>
+        <label>Edad: <input type="number" name="age" /></label>
+        <label>País:
+            <select name="country">
+                <option value="argentina">Argentina</option>
+                <option value="mexico">Mexico</option>
+                <option value="chile">Chile</option>
+            </select>
+        </label>
+        <label>Califique el servicio:
+            <select name="calificación">
+                <option value=-1>Malo</option>
+                <option value=0 selected>Regular</option>
+                <option value=1>Excelente</option>
+            </select>
+        </label>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
