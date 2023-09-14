@@ -1,0 +1,27 @@
+body {
+  color: red;
+}
+
+p {
+}
+
+#texto-importante {
+  font-size: 1.2rem;
+}
+
+.ejemplo {
+  display: inline-block;
+  background-color: aquamarine;
+}
+
+#circulo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+#circulo:hover {
+  background-color: blue;
+}
