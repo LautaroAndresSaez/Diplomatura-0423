@@ -7,10 +7,10 @@ const usersController = require("../controllers/users.controllers");
 const usersRouter = Router();
 
 //3- Creamos nuestros endpoints
-usersRouter.get("/", usersController.buscarTodos);
-usersRouter.post("/", usersController.crear);
+usersRouter.get("/", usersController.buscarTodos); // -> /users
+usersRouter.post("/", usersController.crear); // -> /users
 
-usersRouter.get("/:id", usersController.buscarPorId);
+usersRouter.get("/:id", usersController.buscarPorId); // -> /users/:id
 
 //4- Exportar el Router
 module.exports = usersRouter;

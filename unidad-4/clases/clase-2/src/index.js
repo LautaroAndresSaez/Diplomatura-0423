@@ -7,12 +7,6 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send({
-    message: "Hola",
-  });
-});
-
 //2- Cargamos las rutas de usuario en la app
 app.use("/users", usersRouter); //"/users" -> ruta base
 
