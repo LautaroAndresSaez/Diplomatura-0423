@@ -1,7 +1,9 @@
 const validarTarea = (req, res, next) => {
   const tarea = req.body;
-  if (!tarea.nombre) {
-    res.status(404).send({ message: "El nombre es obligatorio" });
+  if (!tarea.nombre || tarea?.nombre.length < 8) {
+    res.status(404).send({
+      message: "El nombre es obligatorio y debe tener al menos 8 caracteres",
+    });
     return;
   }
   if (!tarea.desc) {
