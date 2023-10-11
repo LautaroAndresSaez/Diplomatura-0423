@@ -1,0 +1,59 @@
+[
+    {
+        "firstName": "Megane",
+        "lastName": "Ryan",
+        "email": "Megane.Ryan19@yahoo.com",
+        "bio": "gamer, developer, developer"
+    },
+    {
+        "firstName": "Cornell",
+        "lastName": "Bartoletti",
+        "email": "Cornell0@yahoo.com",
+        "bio": "educator, foodie, traveler"
+    },
+    {
+        "firstName": "Zachary",
+        "lastName": "Veum",
+        "email": "Zachary.Veum82@hotmail.com",
+        "bio": "mini-skirt supporter, inventor"
+    },
+    {
+        "firstName": "Robbie",
+        "lastName": "Muller",
+        "bio": "local supporter, student"
+    },
+    {
+        "firstName": "Tristian",
+        "lastName": "Gerlach",
+        "email": "Tristian.Gerlach19@hotmail.com",
+        "bio": "backup devotee  🖐️"
+    },
+    {
+        "firstName": "Pierce",
+        "lastName": "Wiza",
+        "bio": "reporter junkie  🇩🇬"
+    },
+    {
+        "firstName": "Aliya",
+        "lastName": "Brakus",
+        "bio": "teacher, business owner, grad"
+    },
+    {
+        "firstName": "Kendall",
+        "lastName": "Swaniawski",
+        "email": "Kendall_Swaniawski@yahoo.com",
+        "bio": "fate advocate  🇹🇬"
+    },
+    {
+        "firstName": "Deborah",
+        "lastName": "Baumbach",
+        "email": "Deborah_Baumbach49@yahoo.com",
+        "bio": "flicker supporter, dreamer ❣️"
+    },
+    {
+        "firstName": "Freeman",
+        "lastName": "Spinka",
+        "email": "Freeman27@gmail.com",
+        "bio": "inventor, engineer"
+    }
+]
