@@ -1,6 +1,9 @@
 const express = require("express");
 const session = require("express-session");
+
 const tareasRouter = require("./routes/tareas.routes");
+const authRouter = require("./routes/usuarios.routes");
+
 const PORT = 3000;
 
 const middlewareDePrueba = (req, res, next) => {
@@ -21,6 +24,7 @@ app.use(
 app.use(middlewareDePrueba);
 
 app.use("/tareas", tareasRouter);
+app.use("/auth", authRouter);
 
 app.get("/", (req, res) => {
   res.send("Hola");
