@@ -6,18 +6,6 @@ const CursosModel = require("./models/cursos.model");
 const app = express();
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  AlumnosModel.findAll({
-    where: {
-      nombre: "Valentina",
-      id_curso: 1,
-    },
-    include: CursosModel,
-  }).then((alumnos) => {
-    res.send({ alumnos });
-  });
-});
-
 app.get("/cursos/:id", (req, res) => {
   const { id } = req.params;
   CursosModel.findByPk(id, {
