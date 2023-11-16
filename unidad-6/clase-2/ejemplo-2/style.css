@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  position: relative;
+}
+
+#barra {
+  position: fixed;
+  height: 50px;
+  background-color: purple;
+  top: 5px;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
