@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de notas - ICARO</title>
+</head>
+
+<body>
+    <h1>Mi bloc de notas!</h1>
+    <form method="POST" action="/notes">
+        <label><input name="name" /> </label>
+        <label><textarea name="note"></textarea></label>
+        <label><input name="color" type="color" value="#ffffff" /></label>
+        <button>Crear nota!</button>
+    </form>
+    <ul id="notes"></ul>
+    <script src="/js/home.js"></script>
+</body>
+
+</html>
