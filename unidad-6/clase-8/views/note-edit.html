@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloc de notas - ICARO</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1 class="titulo">Editando Nota</h1>
+      <form id="editForm" method="POST" action="/notes" class="formulario-nota">
+        <div class="campo-formulario">
+          <label>Nombre</label>
+          <input id="editName" name="name" class="input-texto" />
+        </div>
+        <div class="campo-formulario">
+          <label>Nota</label>
+          <textarea id="editNote" name="note" class="textarea-nota"></textarea>
+        </div>
+        <div class="campo-formulario">
+          <label>Color de la nota</label>
+          <input
+            id="editColor"
+            name="color"
+            type="color"
+            value="#ffffff"
+            class="input-color"
+          />
+        </div>
+        <button class="boton-guardar">Guardar cambios!</button>
+      </form>
+    </main>
+    <script src="/js/edit.js"></script>
+  </body>
+</html>

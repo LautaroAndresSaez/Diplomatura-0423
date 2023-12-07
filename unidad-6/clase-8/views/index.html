@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloc de notas - ICARO</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1 class="titulo">Mi bloc de notas!</h1>
+      <form method="POST" action="/notes" class="formulario-nota">
+        <div class="campo-formulario">
+          <label>Nombre</label>
+          <input name="name" class="input-texto" />
+        </div>
+        <div class="campo-formulario">
+          <label>Nota </label>
+          <textarea name="note" class="textarea-nota"></textarea>
+        </div>
+        <div class="campo-formulario">
+          <label> Color de la nota </label>
+          <input
+            name="color"
+            type="color"
+            value="#ffffff"
+            class="input-color"
+          />
+        </div>
+        <button class="boton-crear">Crear nota!</button>
+      </form>
+      <section>
+        <h2 class="titulo">Notas creadas</h2>
+        <ul id="notes" class="lista-notas"></ul>
+      </section>
+    </main>
+    <script src="/js/home.js"></script>
+  </body>
+</html>
