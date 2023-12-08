@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.titulo {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.formulario-nota {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo-formulario {
+  margin-bottom: 10px;
+}
+
+.campo-formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-texto,
+.textarea-nota,
+.input-color {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-color {
+  height: 60px;
+}
+
+.boton-crear,
+.boton-guardar {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton-crear:hover,
+.boton-guardar:hover {
+  background-color: #444;
+}
+
+.lista-notas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-notas .card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.lista-notas .card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-color {
+  display: flex;
+  gap: 5px;
+}
+
+.color-span {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.boton-editar {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.boton-editar:hover {
+  background-color: #0069d9;
+}
