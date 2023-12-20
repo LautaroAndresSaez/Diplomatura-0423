@@ -1,0 +1,53 @@
+.card {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.card_vertical_normal {
+  width: 250px;
+  height: 500px;
+}
+
+.card_vertical_grande {
+  width: 400px;
+  height: 800px;
+}
+
+.card_horizontal_normal {
+  width: 500px;
+  height: 250px;
+}
+
+.card_horizontal_grande {
+  width: 800px;
+  height: 400px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+button {
+  width: 50%;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}

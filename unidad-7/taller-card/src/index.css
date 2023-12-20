@@ -1,0 +1,24 @@
+.ejemplo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.example {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+button {
+  width: 50%;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: .2rem .6rem;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
