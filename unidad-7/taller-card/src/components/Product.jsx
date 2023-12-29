@@ -1,9 +1,10 @@
 import React from "react";
 import Card from "./Card";
 
-export default function Product({ src, desc }) {
+export default function Product({ src, desc, title }) {
   return (
     <Card type="vertical">
+      <h3>{title}</h3>
       <img
         className="product-img"
         src={

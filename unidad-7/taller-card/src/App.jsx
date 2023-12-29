@@ -26,6 +26,7 @@ function App() {
       <ExampleSection title="Componente de producto">
         <Product
           src="https://picsum.photos/200/200"
+          title="Lorem Ipsum"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, earum. Officiis ipsa inventore odit, rem vero ab facilis numquam temporibus!"
         />
         <Product desc="Sin imagen" />
