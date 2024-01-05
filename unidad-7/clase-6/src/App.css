@@ -1,0 +1,30 @@
+.products {
+  list-style: none;
+  display: flex;
+  gap: 1rem 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 350px;
+  padding: 1rem 1.5rem;
+}
+
+.product button {
+  cursor: pointer;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  padding: .2rem .6rem;
+}
+
+.product img {
+  max-width: 250px;
+}
