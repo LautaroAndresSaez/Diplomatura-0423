@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
@@ -7,7 +7,7 @@ import { ConfigProvider, FloatButton, theme } from "antd";
 import { useCartStore } from "./store/useCartStore";
 
 function App() {
-  const cart = useCartStore((s) => s.cart);
+  const amount = useCartStore((s) => s.amount);
   const [open, setOpen] = useState(false);
 
   const toggleOpen = () => setOpen(!open);
@@ -25,7 +25,7 @@ function App() {
         type="primary"
         onClick={toggleOpen}
         style={{ right: 15, top: 15 }}
-        badge={{ count: cart.length }}
+        badge={{ count: amount }}
         icon={<ShoppingCartOutlined />}
       />
       <Cart open={open} onClose={toggleOpen} />
